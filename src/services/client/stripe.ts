@@ -1,7 +1,7 @@
 import { loadStripe, type Stripe } from '@stripe/stripe-js';
 
 /**
- * Stripe's service to be used on client-side
+ * Stripe's service to be used on client-side.
  */
 
 export function getStripe(): Promise<null | Stripe> {

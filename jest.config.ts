@@ -1,6 +1,8 @@
-/** @jest-config-loader ts-node */
+/**
+ * @jest-config-loader ts-node
+ */
 import { type Config } from '@jest/types';
-import nextJest from 'next/jest';
+import nextJest from 'next/jest.js';
 
 const config: Config.InitialOptions = {
   moduleNameMapper: {
