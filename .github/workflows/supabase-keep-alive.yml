@@ -2,8 +2,8 @@ name: Prevent Supabase Pausing
 
 on:
   schedule:
-    # Runs every day at 10:00 UTC
-    - cron: "0 10 * * *"
+    # Runs every day at 10:00, 13:00 and 17:00 (UTC)
+    - cron: "0 10,13,17 * * *"
   workflow_dispatch: # Allow manual triggering
 
 jobs:
