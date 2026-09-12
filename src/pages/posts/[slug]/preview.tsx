@@ -56,9 +56,7 @@ export default function PostPreviewPage({ post }: PostPreviewPageProps): ReactNo
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: [
-      /* generate static pages on runtime (as per first access) */
-    ],
+    paths: [/* generate static pages on runtime (as per first access) */],
     fallback: 'blocking',
   };
 };
